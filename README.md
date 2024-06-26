@@ -4,7 +4,7 @@ This project focuses on creating a mapping and routing mechanism using Python's 
 
 **Future Prospects:**
 1) Implementing SQL to read latitude and longitude data and store necessary information.
-2) Developing a Traveling Salesman Algorithm using dynamic programming to find the minimum route that covers all nodes from a base node, while aiming to cover the shortest distance despite the problem being NP-hard.
+2) Developing a Traveling Salesman Algorithm using dynamic programming to find the minimum route that covers all nodes from a base node, while the solution cannot be optimal as the problem is an NP-hard Problem.
 ## Learnings
 
 - **Folium Module:**
