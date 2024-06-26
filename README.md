@@ -1,15 +1,29 @@
 # Route-Mapping-and-Location-Tracking
 Optimizing Route Mapping and Location Tracking Using Graph Plotting on Latitude-Longitude Coordinates
-This project is a simple and effective CAPTCHA generator built using Python. It features a graphical user interface (GUI) created with the Tkinter module, making generating and displaying CAPTCHA images easy. The primary aim is to provide a straightforward tool for generating CAPTCHA challenges to enhance security on websites and applications..
+This project is a simple and effective CAPTCHA generator built using Python. It features a graphical user interface (GUI) created with the Tkinter module, making generating and displaying CAPTCHA images easy. The primary aim is to provide a straightforward tool for generating CAPTCHA challenges to enhance security on websites and applications.
 ## Learnings
 
-- **Python Programming:** Strengthened my understanding of Python syntax, data structures, and object-oriented programming principles.
+- **Folium Module:**
+  1) Learned to create interactive maps using the Folium module in Python.
+  2) Generated maps as separate HTML files.
+  3) Embedded and hosted these HTML maps using Python's web browser module.
+  <a href="https://pypi.org/project/folium/">Know More About Folium</a>
 
-- **Tkinter GUI Development:** Learned how to design and implement graphical user interfaces using Tkinter, including creating windows, buttons, and image displays.
+- **Geocoding:**
+  1) Utilized the Geocoder and OpenCage Geocoder libraries for converting addresses into geographical coordinates.
+  2) Explored various features and API integrations for accurate location data retrieval.
+     <a href="https://pypi.org/project/opencage/">Know More About Geocoding</a>
 
-- **Image Processing:** Explored techniques for generating and manipulating images programmatically, particularly in the context of generating CAPTCHA challenges.
+- **Mathematical Calculations with NumPy:**
+  1)Employed NumPy for performing complex mathematical operations.
+  2) Calculated the aerial distance between two geographical locations using NumPy functions.
+  <a href="https://pypi.org/project/numpy/">Know More About Numpy</a>
 
-- **Algorithm Design:** Developed algorithms to generate random text, distort images, and apply noise to create secure and challenging CAPTCHA images.
+
+- **Web Browser Module:**
+  1) Hosted and displayed the generated maps in a web browser directly from the Python script.
+  2) Enabled interactive exploration of the generated maps through the web interface.
+     <a href="https://docs.python.org/3/library/webbrowser.html">Know More About Webbrowser Module</a>
 
 - **Error Handling and Validation:** Implemented error handling techniques to ensure the application runs smoothly and can handle unexpected inputs gracefully.
 
@@ -20,10 +34,23 @@ This project is a simple and effective CAPTCHA generator built using Python. It 
 This project utilizes the following libraries and modules:
 
 ```bash
-  pip install tk
-  pip install captcha
+  pip install phonenumbers
+  pip install folium
+  pip install pandas
+  pip install numpy
+  pip install plotly
+  pip install gmplot
+  pip install opencage
 ```
-Ensure you have these dependencies installed before running the program.+
+Ensure you have these dependencies installed before running the program.
+
+- ## Key Points
+
+To use OpenCageGeocoder you need to follow these steps:
+- Go to their official site and create a account  -> <a href="https://opencagedata.com/">Link</a>
+- After creating a account go to the *Geocoding API* section
+- And copy your API keys
+
 
 ## Screenshots
 
